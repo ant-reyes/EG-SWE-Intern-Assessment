@@ -138,7 +138,7 @@ class ProcessGameState:
         new_df['weapon_classes'] = pd.Series(weapon_classes)
         return new_df
 
-    def get_first_round_rows(self, df):
+    def get_first_row_of_each_round(self, df):
         """
         Gets the first row of each round for the given df.
 
